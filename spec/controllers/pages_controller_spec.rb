@@ -6,6 +6,7 @@ RSpec.describe PagesController, type: :controller do
 
   describe "GET 'home'" do
     it "devrait réussir" do
+      #controller.template.should_receive(:title).and_return("Title")
       get 'home'
       response.should be_success
     end
