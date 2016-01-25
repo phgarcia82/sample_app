@@ -9,12 +9,14 @@ gem 'sqlite3-ruby', '1.3.2', :require => 'sqlite3'
 
 group :development do
   gem 'rspec-rails'
+  gem 'annotate'
 end
 
 group :test do
   gem 'rspec'
   gem 'webrat'
   gem 'spork', '0.9.0.rc5'
+  gem 'factory_girl_rails'
 end
 
 # Use SCSS for stylesheets
