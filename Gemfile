@@ -7,6 +7,8 @@ gem 'rails', '4.1.8'
 gem 'sqlite3'
 gem 'sqlite3-ruby', '1.3.2', :require => 'sqlite3'
 
+gem 'gravatar_image_tag'
+
 group :development do
   gem 'rspec-rails'
   gem 'annotate'
